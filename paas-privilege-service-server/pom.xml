@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>paas-privilege-service-server</artifactId>
     <packaging>jar</packaging>
-    <parent><groupId>com.rkhd.platform</groupId><artifactId>paas-privilege-service</artifactId><version>${revision}</version></parent>
+    <parent><groupId>com.hongyang.platform</groupId><artifactId>paas-privilege-service</artifactId><version>${revision}</version></parent>
     <dependencies>
-        <dependency><groupId>com.rkhd.platform</groupId><artifactId>paas-privilege-service-core</artifactId></dependency>
-        <dependency><groupId>com.rkhd.platform</groupId><artifactId>paas-metarepo-service-core</artifactId></dependency>
+        <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-privilege-service-core</artifactId></dependency>
+        <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-metarepo-service-core</artifactId></dependency>
         <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-web</artifactId></dependency>
         <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-undertow</artifactId></dependency>
         <dependency><groupId>com.alibaba.cloud</groupId><artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId></dependency>

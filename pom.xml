@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.rkhd.platform</groupId>
+    <groupId>com.hongyang.platform</groupId>
     <artifactId>paas-privilege-service</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
@@ -21,8 +21,8 @@
         <dependencies>
             <dependency><groupId>com.hongyang</groupId><artifactId>framework-basic</artifactId><type>pom</type><scope>import</scope><version>${framework-basic-import.version}</version></dependency>
             <dependency><groupId>com.hongyang</groupId><artifactId>framework-redis</artifactId><type>pom</type><scope>import</scope><version>${framework-redis-import.version}</version></dependency>
-            <dependency><groupId>com.rkhd.platform</groupId><artifactId>paas-privilege-service-core</artifactId><version>${revision}</version></dependency>
-            <dependency><groupId>com.rkhd.platform</groupId><artifactId>paas-metarepo-service-core</artifactId><version>${paas-metarepo-service.version}</version></dependency>
+            <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-privilege-service-core</artifactId><version>${revision}</version></dependency>
+            <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-metarepo-service-core</artifactId><version>${paas-metarepo-service.version}</version></dependency>
         </dependencies>
     </dependencyManagement>
     <build><plugins><plugin><groupId>org.codehaus.mojo</groupId><artifactId>flatten-maven-plugin</artifactId></plugin></plugins></build>
