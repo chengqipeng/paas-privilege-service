@@ -5,7 +5,7 @@
     <artifactId>paas-privilege-service</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
-    <parent><groupId>com.xxx</groupId><artifactId>parent-pom</artifactId><version>2025.1</version></parent>
+    <parent><groupId>com.hongyang</groupId><artifactId>parent-pom</artifactId><version>2025.1</version></parent>
     <properties>
         <revision>1.0.0</revision>
         <framework-basic-import.version>2501.1</framework-basic-import.version>
@@ -19,8 +19,8 @@
     </modules>
     <dependencyManagement>
         <dependencies>
-            <dependency><groupId>com.xxx</groupId><artifactId>framework-basic</artifactId><type>pom</type><scope>import</scope><version>${framework-basic-import.version}</version></dependency>
-            <dependency><groupId>com.xxx</groupId><artifactId>framework-redis</artifactId><type>pom</type><scope>import</scope><version>${framework-redis-import.version}</version></dependency>
+            <dependency><groupId>com.hongyang</groupId><artifactId>framework-basic</artifactId><type>pom</type><scope>import</scope><version>${framework-basic-import.version}</version></dependency>
+            <dependency><groupId>com.hongyang</groupId><artifactId>framework-redis</artifactId><type>pom</type><scope>import</scope><version>${framework-redis-import.version}</version></dependency>
             <dependency><groupId>com.rkhd.platform</groupId><artifactId>paas-privilege-service-core</artifactId><version>${revision}</version></dependency>
             <dependency><groupId>com.rkhd.platform</groupId><artifactId>paas-metarepo-service-core</artifactId><version>${paas-metarepo-service.version}</version></dependency>
         </dependencies>
