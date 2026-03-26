@@ -1,0 +1,16 @@
+.class
+.idea
+.classpath
+.project
+build
+bin
+.bak
+.settings
+Thumbs.db
+.DS_Store
+._.DS_Store
+logs
+target
+*.iml
+*.log
+.flattened-pom.xml
