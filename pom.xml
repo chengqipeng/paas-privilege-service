@@ -15,6 +15,7 @@
     </properties>
     <modules>
         <module>paas-privilege-service-core</module>
+        <module>paas-privilege-service-feign</module>
         <module>paas-privilege-service-server</module>
     </modules>
     <dependencyManagement>
@@ -22,6 +23,7 @@
             <dependency><groupId>com.hongyang</groupId><artifactId>framework-basic</artifactId><type>pom</type><scope>import</scope><version>${framework-basic-import.version}</version></dependency>
             <dependency><groupId>com.hongyang</groupId><artifactId>framework-redis</artifactId><type>pom</type><scope>import</scope><version>${framework-redis-import.version}</version></dependency>
             <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-privilege-service-core</artifactId><version>${revision}</version></dependency>
+            <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-privilege-service-feign</artifactId><version>${revision}</version></dependency>
             <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-metarepo-service-core</artifactId><version>${paas-metarepo-service.version}</version></dependency>
         </dependencies>
     </dependencyManagement>
