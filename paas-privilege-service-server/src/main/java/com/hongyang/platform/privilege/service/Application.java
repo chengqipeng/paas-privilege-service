@@ -10,6 +10,14 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        long startTime = System.currentTimeMillis();
+        org.springframework.context.ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+        String port = ctx.getEnvironment().getProperty("server.port", "unknown");
+        long cost = System.currentTimeMillis() - startTime;
+        System.out.println("\n========================================");
+        System.out.println("  Application started successfully!");
+        System.out.println("  Port: " + port);
+        System.out.println("  Startup time: " + cost + "ms");
+        System.out.println("========================================\n");
     }
 }
